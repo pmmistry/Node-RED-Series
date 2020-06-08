@@ -5,6 +5,6 @@ Node-RED provides plugins called nodes which can be installed to support almost 
 
 ## Contents
 
-1. [Overview](#overview)
+1. [Get Started with Node-RED on IBM Cloud](#Get Started with Node-RED on IBM Cloud)
 
-## Overview
+## Get Started with Node-RED on IBM Cloud
