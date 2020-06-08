@@ -6,6 +6,8 @@ Node-RED provides plugins called nodes which can be installed to support almost 
 ## Contents
 
 1. [Get Started with Node-RED on IBM Cloud](#overview)
+2. [Workshop](#workshop)
+3. [References](#references)
 
 ## Get Started with Node-RED on IBM Cloud 
 In this tutorial, you will learn how to create a Node-RED starter application in the IBM Cloud, including a Cloudant database to store the application flow configuration.
@@ -104,3 +106,5 @@ The Node-RED editor opens showing the default flow.
 ![Image14](/Images/img14.png)
 
 
+## Workshop 
+ 
