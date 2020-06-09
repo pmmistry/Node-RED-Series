@@ -106,5 +106,5 @@ The Node-RED editor opens showing the default flow.
 ![Image14](/Images/img14.png)
 
 
-## Workshop 
+## Labs 
  
