@@ -4,4 +4,4 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
 ### Prerequisites
 To complete this tutorial, you need an [IBM Cloud account](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) (IBM Cloud Lite, trial, or paid account).
 
-Please go through **[Get Started with Node-RED on IBM Cloud]**()
+Please go through [Get Started with Node-RED on IBM Cloud](https://github.com/pmmistry/Node-RED-Series#get-started-with-node-red-on-ibm-cloud) to get an instance of Node-RED running on IBM Cloud
