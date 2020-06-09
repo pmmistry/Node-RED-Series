@@ -110,5 +110,5 @@ The Node-RED editor opens showing the default flow.
  After you have finished creating a Node-RED instance on IBM Cloud you can go through these labs to build some Node-RED Applications
 
 * [Lab 1 : Node-RED Essentials](/Labs/lab_1.md) 
-* [Lab 2 : Node-RED UI and Dashboard Techniques](lab_2.md)
-* [Lab 3 : Node-RED End to End App](lab_3.md) 
+* [Lab 2 : Node-RED UI and Dashboard Techniques](/Labs/lab_2.md)
+* [Lab 3 : Node-RED End to End App](/Labs/lab_3.md) 
