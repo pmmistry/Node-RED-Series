@@ -12,7 +12,7 @@ Node-RED provides plugins called nodes which can be installed to support almost 
     - [Step 4: Open the Node-RED application](https://github.com/pmmistry/Node-RED-Series#step-4-open-the-node-red-application)
     - [Step 5:Configure your Node-RED application](https://github.com/pmmistry/Node-RED-Series#step-5configure-your-node-red-application)
 2. [Labs](https://github.com/pmmistry/Node-RED-Series#labs)
-3. [References]
+3. [References](https://github.com/pmmistry/Node-RED-Series/blob/master/README.md#references)
 
 
 ## Get Started with Node-RED on IBM Cloud 
