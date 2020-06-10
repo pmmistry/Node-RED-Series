@@ -4,7 +4,7 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
 ## Contents
 1. [Prerequisites](#prerequisites)
 2. [Lab](#lab)
-3. [ Get the Code](#code)
+3. [ Get the Code](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#get-the-code)
 4. [References](#references)
 
 
