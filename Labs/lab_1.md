@@ -78,7 +78,9 @@ Lets get started!
 
 #### Step  2 : Set Score to Tone 
 
-1. Insert function node and name node High Score. Connect Node to Tone Analyzer Service and add the code below to filter out emotions from Tone analyzer service and give a score value .
+1. Insert function node and name node `High Score`. Connect Node to Tone Analyzer Service and add the code below to filter out emotions from Tone analyzer service and give a score value . 
+ - Add a debug node at end of `High Score` function node 
+
     ```var emotions = [];
     emotions = msg.response.document_tone.tone_categories
                     .filter(function(c){
@@ -96,8 +98,20 @@ Lets get started!
     }
     return msg;
     ```
+![Image6](/Labs/Images/nr6.png)
+![Image7](/Labs/Images/nr7.png)
 
+2. Insert Switch to select for emotions. You will be adding emotions `Joy`, `Sadness` ,`Fear`,`Anger`and`Disgust` 
+    - Connect switch node to `High Score Function Node`  
+    - Connect each emotion to a template node calld `Score tweet` 
+    -  `Score tweet` includes payload : 
+        ```This tweet expresses {{topic}} - {{tweet.text}}```
 
+    See screenshots for setup : 
+![Image8](/Labs/Images/nr8.png)
+![Image9](/Labs/Images/nr9.png)
+![Image10](/Labs/Images/nr10.png)
+![Image11](/Labs/Images/nr11.png)
 
 
 
