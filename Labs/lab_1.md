@@ -134,7 +134,6 @@ Lets get started!
 
 2. To use twitter node you will need twitter ID and twitter API credentials . Set up your twitter credentials at : [https://developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
 
-![Image15](/Labs/Images/nr15.png)
 
 3. Once you have your twitter node set up , connect your twitter flow to tone analyze service and test. 
 
