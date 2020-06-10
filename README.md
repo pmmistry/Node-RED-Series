@@ -118,3 +118,9 @@ The Node-RED editor opens showing the default flow.
 * [Lab 1 : Node-RED Essentials](/Labs/lab_1.md) 
 * [Lab 2 : Node-RED UI and Dashboard Techniques](/Labs/lab_2.md)
 * [Lab 3 : Node-RED End to End App](/Labs/lab_3.md) 
+
+## References 
+- [Create a Node-RED starter application](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/)
+- [Node-RED IBM Developer Docs](https://developer.ibm.com/components/node-red/)
+- [Getting Started with Node-RED](https://nodered.org/docs/getting-started/)
+- [Node-RED Flows](https://nodered.org/docs/getting-started/)
