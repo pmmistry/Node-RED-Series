@@ -4,12 +4,13 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
 ## Contents
 1. [Prerequisites](#prerequisites)
 2. [Lab](#lab)
-    - [Step 1](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step--1--connecting-inject-nodes-to-tone-analyzer-service)
-    - [Step 2](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step--2--set-score-to-tone) 
-    - [Step 3](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step-3--add-language-translator--text-to-speech-and-audio-output-nodes)
-    - [Step 4](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#optional-step-4--connect-to-twitter)
+    - [Step 1: Connecting Inject Nodes to Tone Analyzer Service](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step--1--connecting-inject-nodes-to-tone-analyzer-service)
+    - [Step 2:  Set Score to Tone](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step--2--set-score-to-tone) 
+    - [Step 3: Add language translator , text to speech and audio output nodes](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step-3--add-language-translator--text-to-speech-and-audio-output-nodes)
+    - [Step 4: Optional - Connect to twitter](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#optional-step-4--connect-to-twitter)
 3. [ Get the Code](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#get-the-code)
-
+    - [Text Analyzer](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#to-import-text-analyzer-flow-go-to--textanalyzerflow)
+    - [Tweet Analyzer](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#to-import-tweet-analyzer-flow-go-to--tweetanalyzerflow)
 4. [References](#references)
 
 
@@ -148,7 +149,6 @@ Lets get started!
 ![Image16](/Labs/Images/nr16.png)
 
 ## Get the Code
-
 **Importing:**
 An alternative to creating a flow is importing a flow. You can import a flow fairly easily by going to hamburger menu > Import > Pasting json you would like to import
 
@@ -160,4 +160,6 @@ Similarly if you want to share your flows you can also export your flows by goin
 ### To import tweet analyzer flow go to : [tweetAnalyzer.flow](/Labs/Flows/tweetAnalyzer.flow)
 
 ## References
-
+-   [Node-RED Twitter Analysis](https://node-red.gitbook.io/node-red-twitter/)
+-   [Using Node-RED and AI to analyze social media](https://developer.ibm.com/videos/using-node-red-and-ai-to-analyze-social-media-tech-talk/)
+-   [Watson on Node-RED](https://github.com/watson-developer-cloud/node-red-node-watson)
