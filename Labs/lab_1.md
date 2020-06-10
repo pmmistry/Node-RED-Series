@@ -52,7 +52,25 @@ Lets get started!
    > **Note**: This text is suppose to symbolize a tweet. Feel free to add your own text example .
 ![Image2](/Labs/Images/nr2.png)
 
-3. Drag a tone analyzer node from IBM Watson Nodes in the palette and connect to all three text nodes . 
+3. Drag a tone analyzer node from IBM Watson Nodes in the palette and connect to all three text nodes. 
+4. [Create a tone analyzer service from IBM Cloud](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#to-use-watson-nodes-you-will-need-to-initiate-watson-service-on-ibm-cloud) and add `API Key` and `Service Endpoint` to tone analyzer node. 
+ ![Image3](/Labs/Images/nr3.png)
+
+ 5. Add debug node and change node to end of tone analyzer node : 
+
+  Debug Node Settings 
+  - Name node `Print msg.response` to see response of tone analyzer 
+  - Set output to `msg.response` 
+  Change Node Settings 
+  - Name node `tone_categories`
+  - Set `msg.payload` to  `msg.response.document_tone.tone_categories` to get tone category result 
+  - Connect a debug node called `Tone categories` to end of change node  
+ ![Image4](/Labs/Images/nr4.png)
+
+ 6. Click on Deploy button and test by injecting text 
+ ![Image4](/Labs/Images/nr4.png)
+
+
 
 
 
