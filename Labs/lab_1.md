@@ -4,7 +4,7 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
 ## Contents
 1. [Prerequisites](#prerequisites)
 2. [Lab](#lab)
-3. [Get the Code](#code)
+3. [ Get the Code](#code)
 4. [References](#references)
 
 
@@ -143,15 +143,12 @@ Lets get started!
 ![Image16](/Labs/Images/nr16.png)
 
 ## Get the Code
+
 **Importing:**
 An alternative to creating a flow is importing a flow. You can import a flow fairly easily by going to hamburger menu > Import > Pasting json you would like to import
 
-![Image17](/Labs/Images/nr17.png)
-
 **Exporting:** 
 Similarly if you want to share your flows you can also export your flows by going to hamburger menu > Export > Download 
-
- ![Image18](/Labs/Images/nr18.png)
 
 ### To import text analyzer flow go to : [textAnalyzer.flow](/Labs/Flows/textAnalyzer.flow)
 
