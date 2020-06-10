@@ -1,5 +1,13 @@
 # Node-RED Essentials 
-In this lab you will learn how to build a text analyzer using Node-RED essentials techniques. We will be using drag and drop nodes with Watson APIs to analyze and gain useful insights. We be using services such as tone analyzer, text to speech , audio output , language translator and twitter data source.  
+In this lab you will learn how to build a text analyzer using Node-RED essentials techniques. We will be using drag and drop nodes with Watson APIs to analyze and gain useful insights. We be using services such as tone analyzer, text to speech , audio output , language translator and twitter data source. 
+
+## Contents
+1. [Prerequisites](#prerequisites)
+2. [Node-RED Essentials](#essentials)
+3. [Explore node-red-node-watson Node-RED nodes](#explore)
+4. [To use watson nodes you will need to initiate Watson Service on IBM Cloud](#use)
+5. [Lab](#lab)
+6. [Step  1 : Connecting Inject Nodes to Tone Analyzer Service](#step1)
 
 ## Prerequisites
 To complete this tutorial, you need an [IBM Cloud account](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) (IBM Cloud Lite, trial, or paid account).
@@ -28,7 +36,7 @@ The [node-red-node-watson GitHub repository](https://github.com/watson-developer
 - Tone Analyzer: Discover, understand, and revise the language tones in text
 - Visual Recognition: Analyze visual appearance of images to understand their contents
 
-#### To use watson nodes you will need to initiate Watson Service on IBM Cloud. 
+#### To use watson nodes you will need to initiate Watson Service on IBM Cloud
 Steps : 
 1. [Go to IBM Cloud Catalog](https://github.com/pmmistry/Node-RED-Series#step-1-find-the-node-red-starter-in-the-ibm-cloud-catalog)
 2. Search for service you want to use 
@@ -109,9 +117,10 @@ Lets get started!
 
     See screenshots for setup : 
 ![Image8](/Labs/Images/nr8.png)
-![Image9](/Labs/Images/nr9.png)
-![Image10](/Labs/Images/nr10.png)
-![Image11](/Labs/Images/nr11.png)
 
+3. Deploy and test 
+![Image12](/Labs/Images/nr12.png)
+
+#### Step 3 
 
 
