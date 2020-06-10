@@ -79,23 +79,23 @@ Lets get started!
 #### Step  2 : Set Score to Tone 
 
 1. Insert function node and name node High Score. Connect Node to Tone Analyzer Service and add the code below to filter out emotions from Tone analyzer service and give a score value .
-```var emotions = [];
-emotions = msg.response.document_tone.tone_categories
-                .filter(function(c){
-                    if (c.category_id == "emotion_tone")
-                    {return c; }
-                    })[0].tones;
+    ```var emotions = [];
+    emotions = msg.response.document_tone.tone_categories
+                    .filter(function(c){
+                        if (c.category_id == "emotion_tone")
+                        {return c; }
+                        })[0].tones;
 
-var myscore =  0;
-for (var i=0; i<emotions.length; i++) {
-    if(emotions[i].score > myscore) {
-        msg.payload = emotions[i].score;
-        msg.topic = emotions[i].tone_name;
-        myscore = emotions[i].score;
+    var myscore =  0;
+    for (var i=0; i<emotions.length; i++) {
+        if(emotions[i].score > myscore) {
+            msg.payload = emotions[i].score;
+            msg.topic = emotions[i].tone_name;
+            myscore = emotions[i].score;
+        }
     }
-}
-
-return msg;```
+    return msg;
+    ```
 
 
 
