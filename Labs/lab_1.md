@@ -35,7 +35,7 @@ The [node-red-node-watson GitHub repository](https://github.com/watson-developer
 - Tone Analyzer: Discover, understand, and revise the language tones in text
 - Visual Recognition: Analyze visual appearance of images to understand their contents
 
-### To use watson nodes you will need to initiate Watson Service on IBM Cloud
+### To use watson nodes you will need to create Watson Service on IBM Cloud
 Steps : 
 1. [Go to IBM Cloud Catalog](https://github.com/pmmistry/Node-RED-Series#step-1-find-the-node-red-starter-in-the-ibm-cloud-catalog)
 2. Search for service you want to use 
