@@ -3,11 +3,8 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
 
 ## Contents
 1. [Prerequisites](#prerequisites)
-2. [Node-RED Essentials](#essentials)
-3. [Explore node-red-node-watson Node-RED nodes](#explore)
-4. [To use watson nodes you will need to initiate Watson Service on IBM Cloud](#use)
-5. [Lab](#lab)
-6. [Step  1 : Connecting Inject Nodes to Tone Analyzer Service](#step1)
+2. [Lab](#lab)
+
 
 ## Prerequisites
 To complete this tutorial, you need an [IBM Cloud account](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) (IBM Cloud Lite, trial, or paid account).
@@ -50,7 +47,7 @@ In this lab we are going to create a text analyzer. Optionally you could turn th
 
 Lets get started! 
 
-#### Step  1 : Connecting Inject Nodes to Tone Analyzer Service 
+### Step  1 : Connecting Inject Nodes to Tone Analyzer Service 
 1. Drag three inject nodes and name each node `Happy test` , `Sad test` and `Angry test` 
 
 2.  Double click on inject node and set property as  **payload**
@@ -84,7 +81,7 @@ Lets get started!
 
 
 
-#### Step  2 : Set Score to Tone 
+### Step  2 : Set Score to Tone 
 
 1. Insert function node and name node `High Score`. Connect Node to Tone Analyzer Service and add the code below to filter out emotions from Tone analyzer service and give a score value . 
  - Add a debug node at end of `High Score` function node 
@@ -121,6 +118,41 @@ Lets get started!
 3. Deploy and test 
 ![Image12](/Labs/Images/nr12.png)
 
-#### Step 3 
+### Step 3 : Add language translator , text to speech and audio output nodes 
+1. Go to  IBM cloud and create language translator and text to speech services. 
+2. Connect language translator node to end of `Score Tweet` payload and add in service credentials 
+3. Connect language translator to text to speech node . Add service credentials for text to speech . 
+4. Connect a change node and set `msg.payload` to `msg.speech` 
+5. Install audio node by : Going to hamburger menu > Manage palette > install > search `node-red-contrib-play-audio` 
+6. Deploy and test 
+![Image13](/Labs/Images/nr13.png)
+
+### Optional Step 4 : Connect to twitter 
+1. Search and install `node-red-node-twitter` in Manage palette. Once installed create the following flow : 
+
+![Image14](/Labs/Images/nr14.png)
+
+2. To use twitter node you will need twitter ID and twitter API credentials . Set up your twitter credentials at : [https://developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
+
+![Image15](/Labs/Images/nr15.png)
+
+3. Once you have your twitter node set up , connect your twitter flow to tone analyze service and test. 
+
+    Your flow should look like : 
+![Image16](/Labs/Images/nr16.png)
+
+## Get the Code 
+An alternative to creating a flow is importing a flow. You can import a flow fairly easily by going to hamburger menu > Import > Pasting json you would like to import 
+
+![Image17](/Labs/Images/nr17.png)
+
+Similarly if you want to share your flows you can also export your flows by going to hamburger menu > Export > Download 
+
+![Image18](/Labs/Images/nr18.png)
+
+### To import text analyzer flow go to : [textAnalyzer.flow](/Labs/Flows/textAnalyzer.flow)
+
+### To import tweet analyzer flow go to : [tweetAnalyzer.flow](/Labs/Flows/tweetAnalyzer.flow)
+
 
 
