@@ -48,11 +48,12 @@ Lets get started!
 2.  Double click on inject node and set property as  **payload**
    -  For Happy test set payload to  `{"text":"every one is awesome"}` 
    -  For Sad test set payload to `{"text":"This is miserable and sad"}`
-   -  For Angry test set payload to `{"text":"I hate this demo"}` 
+   -  For Angry test set payload to `{"text":"I hate this demo"}`
+
+![Image2](/Labs/Images/nr2.png) 
 
    > **Note**: This text is suppose to symbolize a tweet. Feel free to add your own text example .
 
- ![Image2](/Labs/Images/nr2.png)
 
 3. Drag a tone analyzer node from IBM Watson Nodes in the palette and connect to all three text nodes. 
 
