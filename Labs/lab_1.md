@@ -52,7 +52,7 @@ Lets get started!
 
    > **Note**: This text is suppose to symbolize a tweet. Feel free to add your own text example .
 
-    ![Image2](/Labs/Images/nr2.png)
+ ![Image2](/Labs/Images/nr2.png)
 
 3. Drag a tone analyzer node from IBM Watson Nodes in the palette and connect to all three text nodes. 
 
