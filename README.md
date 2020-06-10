@@ -5,9 +5,14 @@ Node-RED provides plugins called nodes which can be installed to support almost 
 
 ## Contents
 
-1. [Get Started with Node-RED on IBM Cloud](#overview)
-2. [Labs](#workshop)
-3. [References](#references)
+1. [Get Started with Node-RED on IBM Cloud](https://github.com/pmmistry/Node-RED-Series#get-started-with-node-red-on-ibm-cloud)
+    - [Step 1:Find the Node-RED Starter in the IBM Cloud catalog](https://github.com/pmmistry/Node-RED-Series#step-1-find-the-node-red-starter-in-the-ibm-cloud-catalog)
+    - [Step 2: Create your application](https://github.com/pmmistry/Node-RED-Series#step-2-create-your-application)
+    - [Step 3: Enable the Continuous Delivery feature](https://github.com/pmmistry/Node-RED-Series#step-3-enable-the-continuous-delivery-feature)
+    - [Step 4: Open the Node-RED application](https://github.com/pmmistry/Node-RED-Series#step-4-open-the-node-red-application)
+    - [Step 5:Configure your Node-RED application](https://github.com/pmmistry/Node-RED-Series#step-5configure-your-node-red-application)
+2. [Labs](https://github.com/pmmistry/Node-RED-Series#labs)
+
 
 ## Get Started with Node-RED on IBM Cloud 
 In this tutorial, you will learn how to create a Node-RED starter application in the IBM Cloud, including a Cloudant database to store the application flow configuration.

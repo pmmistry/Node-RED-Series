@@ -9,6 +9,7 @@ In this lab you will learn how to build a text analyzer using Node-RED essential
     - [Step 3](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#step-3--add-language-translator--text-to-speech-and-audio-output-nodes)
     - [Step 4](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#optional-step-4--connect-to-twitter)
 3. [ Get the Code](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_1.md#get-the-code)
+
 4. [References](#references)
 
 
