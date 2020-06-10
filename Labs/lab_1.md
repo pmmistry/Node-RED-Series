@@ -68,7 +68,7 @@ Lets get started!
  ![Image4](/Labs/Images/nr4.png)
 
  6. Click on Deploy button and test by injecting text 
- ![Image4](/Labs/Images/nr4.png)
+ ![Image5](/Labs/Images/nr5.png)
 
 
 
