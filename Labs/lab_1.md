@@ -58,7 +58,7 @@ Lets get started!
 
  5. Add debug node and change node to end of tone analyzer node : 
 
-  Debug Node Settings 
+    Debug Node Settings 
   - Name node `Print msg.response` to see response of tone analyzer 
   - Set output to `msg.response` 
   Change Node Settings 
