@@ -44,6 +44,7 @@ Lets get started!
 
 #### Step  1 : Connecting Inject Nodes to Tone Analyzer Service 
 1. Drag three inject nodes and name each node `Happy test` , `Sad test` and `Angry test` 
+
 2.  Double click on inject node and set property as  **payload**
    -  For Happy test set payload to  `{"text":"every one is awesome"}` 
    -  For Sad test set payload to `{"text":"This is miserable and sad"}`
@@ -51,7 +52,7 @@ Lets get started!
 
    > **Note**: This text is suppose to symbolize a tweet. Feel free to add your own text example .
 
-![Image2](/Labs/Images/nr2.png)
+    ![Image2](/Labs/Images/nr2.png)
 
 3. Drag a tone analyzer node from IBM Watson Nodes in the palette and connect to all three text nodes. 
 
