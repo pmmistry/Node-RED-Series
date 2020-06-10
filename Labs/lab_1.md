@@ -49,8 +49,8 @@ Lets get started!
    -  For Happy test set payload to  `{"text":"every one is awesome"}` 
    -  For Sad test set payload to `{"text":"This is miserable and sad"}`
    -  For Angry test set payload to `{"text":"I hate this demo"}`
-
-![Image2](/Labs/Images/nr2.png) 
+    
+ ![Image2](/Labs/Images/nr2.png) 
 
    > **Note**: This text is suppose to symbolize a tweet. Feel free to add your own text example .
 
