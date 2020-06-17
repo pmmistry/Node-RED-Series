@@ -222,7 +222,24 @@ Once this node is installed you can set these settings for the world map node :
 
 ![Img](/Labs/Images/db41-1.png)
 
-Once flow is created it should look like : 
+The function node will extract exact ISS location from ISS API  : http://api.open-notify.org/iss-now.json
+
+```var iss_location = msg.payload.iss_position;
+
+msg.payload = { 
+        name : "International Space Station",
+        lat  : parseFloat(iss_location.latitude),
+        lon  : parseFloat(iss_location.longitude),
+        icon: "iss",
+        iconColor:'#900000',
+        command : { "zoom" : 3 }
+};
+
+return msg;``` 
+
+You can add this code to function Node
+
+Once flow is created the dashboard should look like : 
 ![Img](/Labs/Images/db1.png)
 
 
