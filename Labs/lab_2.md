@@ -9,11 +9,17 @@ In this lab we will be walking through various different things you can make usi
 1. [Prerequisits](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#prerequisites)
     - [Installing node-red-dashboard nodes](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#installing-node-red-dashboard-nodes)
 2. [Labs](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#lab)
+
 3. [Basic Dashboard](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#basic-dashboard)
+  
     -[Import Basic Dashboard](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#to-import-basic-dashboard-flow-go-to--basicdashboardflow)
+
 4. [CPU Dashboard](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#cpu-dashboard)
+   
     -[Import CPU Dashboard](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#to-import-cpu-dashboard-flow-go-to--cpudashboardflow)
+
 5. [Space Station](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#space-station)
+
     -[Import Space Station Dashboard](https://github.com/pmmistry/Node-RED-Series/blob/master/Labs/lab_2.md#to-import-space-station-dashboard-flow-go-to--spacestationdashboardflow)
    
 
