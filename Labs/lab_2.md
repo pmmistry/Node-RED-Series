@@ -179,7 +179,7 @@ Use a template node between a switch node and alert node to create a template fo
 
 Use switch node to seperate data coming from all 4 cores. Create seperate guages to map for each core's data. 
 
-![Img](/Labs/Images/db37.png)
+![Img](/Labs/Images/db38.png)
 
 Make sure you create a separate group for the gauges . In my case the Tab is still CPU but the group is CPU guages . In the end the dashboard is all under one tab - CPU and there are 3 separate groups - CPU on and off , CPU utilization and CPU gauges . 
 
