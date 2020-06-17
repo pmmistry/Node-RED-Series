@@ -224,7 +224,8 @@ Once this node is installed you can set these settings for the world map node :
 
 The function node will extract exact ISS location from ISS API  : http://api.open-notify.org/iss-now.json
 
-```var iss_location = msg.payload.iss_position;
+```
+var iss_location = msg.payload.iss_position;
 
 msg.payload = { 
         name : "International Space Station",
@@ -235,7 +236,8 @@ msg.payload = {
         command : { "zoom" : 3 }
 };
 
-return msg;``` 
+return msg;
+``` 
 
 You can add this code to function Node
 
