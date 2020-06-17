@@ -63,7 +63,7 @@ Click update and done when you are done editing this UI element.  You will notic
 Connect a debug node to this button node and then deploy.  To see how the dashboard looks like  click on the little square with upward arrow to see the dashboard in another webpage tab. You should see a button and when you click on it you should see current timestamp in your debug console in node -RED .
 
 ![Img15](/Labs/Images/db15.png)
-![Img16](/Labs/Images/db15.png)
+![Img16](/Labs/Images/db16.png)
 
 ### Step 2. Adding a text box that corresponds to the button 
 
