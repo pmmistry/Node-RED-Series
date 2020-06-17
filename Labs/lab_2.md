@@ -44,7 +44,7 @@ We will be creating 3 different kinds of dashboards in this lab
 
 ## Basic Dashboard 
 In this flow we will learn the basics of dashboard nodes and build a UI dashboard with buttons, alerts, gauges, sliders, line charts and bar charts. 
-By the end of this tutorial your dashboard should look like this
+By the end of this tutorial your dashboard should look like this : 
 ![Img2](/Labs/Images/db2.png)
 
 ### Step 1 .  Drag a Button Node and Configure Groups and Tabs 
@@ -62,9 +62,8 @@ Click update and done when you are done editing this UI element.  You will notic
 
 Connect a debug node to this button node and then deploy.  To see how the dashboard looks like  click on the little square with upward arrow to see the dashboard in another webpage tab. You should see a button and when you click on it you should see current timestamp in your debug console in node -RED .
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.36.52-pm.png)
-
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.46.37-pm.png)
+![Img15](/Labs/Images/db15.png)
+![Img16](/Labs/Images/db15.png)
 
 ### Step 2. Adding a text box that corresponds to the button 
 
