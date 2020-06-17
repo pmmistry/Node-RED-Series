@@ -49,11 +49,12 @@ In this flow we will learn the basics of dashboard nodes and build a UI dashboar
 
 Drag a Button node out into the pallet and double click to edit this button's properties 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.44.47-pm.png)
+![Img2](/Labs/Images/db2.png)
 
 The label describes the button's name and when clicked the button is sending the current time stamp.  Double click on the pencil button next to the group field and indicate the group's name and which tab this field belongs to. In my case I called the tab Demo and the group a button. This tab and group will be used once you add more UI elements to the page. 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.15.46-pm.png)
+![Img12](/Labs/Images/db12.png)
+
 
 Click update and done when you are done editing this UI element.  You will notice your Tab and group name on the right hand in the layout tab . You can add tabs and groups here as well. 
 
@@ -130,3 +131,4 @@ Make sure all nodes are part of Analog group and set range from 0 - 200
 ![](../.gitbook/assets/screen-shot-2019-08-12-at-9.51.27-pm.png)
 
 Deploy all changes and open dashboard UI. You should see gauge, line and bar chart fluctuate based on slider input. 
+ 
