@@ -108,23 +108,23 @@ Deploy , and when you click on the button on the dashboard you should hear audio
 
 This other group will be called Analog and it will be on the same dashboard web page but it will include a slider, a gauge , a line chart and a bar chart ! 
 
-![Img25](/Labs/Images/d25.png)
+![Img25](/Labs/Images/db25.png)
 
 Drag slider node and connect its output to gauge node , chart node \(line\) , and chart node \(bar\). 
 
-![Img26](/Labs/Images/d26.png)
+![Img26](/Labs/Images/db26.png)
 
 Make sure all nodes are part of Analog group and set range from 0 - 200 
 
 #### Slider: 
-![Img26](/Labs/Images/d27.png)
+![Img26](/Labs/Images/db27.png)
 
 #### Guage: 
 
-![Img26](/Labs/Images/d28.png)
+![Img26](/Labs/Images/db28.png)
 
 #### Chart: 
-![Img26](/Labs/Images/d29.png)
+![Img26](/Labs/Images/db29.png)
 
 
 Deploy all changes and open dashboard UI. You should see gauge, line and bar chart fluctuate based on slider input. 
