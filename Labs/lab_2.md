@@ -24,8 +24,13 @@ First thing that you will need to get started is to install `node-red-dashboard`
 
 To do this you will need to 
 1. Go to manage palette in your Node-RED Editor 
-![Image2](/Labs/Images/db10.png)
+
+![Image2](/Labs/Images/db12.png)
+
 2. Find `node-red-dashboard` in install tab 
+
 ![Image3](/Labs/Images/db7.png)
+
 3. Install Dashboard Nodes and see them in your Node-RED Editor palette under dashboard 
+
 ![Image4](/Labs/Images/db11.png)
