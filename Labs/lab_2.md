@@ -43,22 +43,22 @@ We will be creating 3 different kinds of dashboards in this lab
 -  Space Station Dashboard  
 
 ## Basic Dashboard 
-In this flow we will learn the basics of dashboard nodes and build a UI dashboard with buttons, alerts, gauges, sliders, line charts and bar charts
-
-### Step 1 .  Drag a Button Node and Configure Groups and Tabs 
-
-Drag a Button node out into the pallet and double click to edit this button's properties 
-
+In this flow we will learn the basics of dashboard nodes and build a UI dashboard with buttons, alerts, gauges, sliders, line charts and bar charts. 
+By the end of this tutorial your dashboard should look like this
 ![Img2](/Labs/Images/db2.png)
 
-The label describes the button's name and when clicked the button is sending the current time stamp.  Double click on the pencil button next to the group field and indicate the group's name and which tab this field belongs to. In my case I called the tab Demo and the group a button. This tab and group will be used once you add more UI elements to the page. 
+### Step 1 .  Drag a Button Node and Configure Groups and Tabs 
+Drag a Button node out into the pallet and double click to edit this button's properties. 
 
 ![Img12](/Labs/Images/db12.png)
 
+The label describes the button's name and when clicked the button is sending the current time stamp.  Double click on the pencil button next to the group field and indicate the group's name and which tab this field belongs to. In my case I called the tab Demo and the group a button. This tab and group will be used once you add more UI elements to the page. 
+
+![Img13](/Labs/Images/db13.png)
 
 Click update and done when you are done editing this UI element.  You will notice your Tab and group name on the right hand in the layout tab . You can add tabs and groups here as well. 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.18.40-pm.png)
+![Img14](/Labs/Images/db14.png)
 
 Connect a debug node to this button node and then deploy.  To see how the dashboard looks like  click on the little square with upward arrow to see the dashboard in another webpage tab. You should see a button and when you click on it you should see current timestamp in your debug console in node -RED .
 
