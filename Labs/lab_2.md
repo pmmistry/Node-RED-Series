@@ -184,6 +184,7 @@ Use switch node to seperate data coming from all 4 cores. Create seperate guages
 Make sure you create a separate group for the gauges . In my case the Tab is still CPU but the group is CPU guages . In the end the dashboard is all under one tab - CPU and there are 3 separate groups - CPU on and off , CPU utilization and CPU gauges . 
 
 Flow should look like this : 
+
 ![Img](/Labs/Images/db37.png)
 
 Deploy all changes and see dashboard . When switch is turned on , you should see 4 lines on the utilization chart , as well as different values coming in from each gauge. You should see alerts when values are greater than 50. 
