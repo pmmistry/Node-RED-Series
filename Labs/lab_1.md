@@ -78,10 +78,12 @@ Lets get started!
   Debug Node Settings 
   - Name node `Print msg.response` to see response of tone analyzer 
   - Set output to `msg.response` 
+  
   Change Node Settings 
   - Name node `tone_categories`
   - Set `msg.payload` to  `msg.response.document_tone.tone_categories` to get tone category result 
-  - Connect a debug node called `Tone categories` to end of change node  
+  
+  Connect a debug node called `Tone categories` to end of change node  
  ![Image4](/Labs/Images/nr4.png)
 
 6. Click on Deploy button and test by injecting text 
