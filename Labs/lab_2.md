@@ -15,7 +15,7 @@ To complete this tutorial, you need an [IBM Cloud account](https://cloud.ibm.com
 
 Please go through [Get Started with Node-RED on IBM Cloud](https://github.com/pmmistry/Node-RED-Series#get-started-with-node-red-on-ibm-cloud) to get an instance of Node-RED running on IBM Cloud. 
 
-## Lab 
+###  Installing `node-red-dashboard` nodes
 In this lab we are going to be building useer interfaces using [Node-RED Dashboard Nodes](https://flows.nodered.org/node/node-red-dashboard) 
 
 The Node-RED Dashboard nodes provide a very intuitive and effective way to mock up user interfaces for event driven applications. 
@@ -33,4 +33,11 @@ To do this you will need to
 
 3. Install Dashboard Nodes and see them in your Node-RED Editor palette under dashboard 
 
-![Image4](/Labs/Images/db11.png)
+![Image4](/Labs/Images/db11.png) 
+
+
+## Lab 
+We will be creating 3 different kinds of dashboards in this lab 
+-  Basic Dashboard 
+-  CPU Dashboard 
+-  Space Station Dashboard  
