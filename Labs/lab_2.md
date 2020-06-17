@@ -159,37 +159,34 @@ Go to manage palette and install  `node-red-contrib-cpu`
 
 Once installed drag CPU node and set property to : 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-11.54.21-pm.png)
+![Img](/Labs/Images/db32.png)
 
 Connect CPU node to debug node to see message for each core usage on debug panel. Connect CPU node output to chart dashboard to chart a line graph of messages from CPU. Connect a switch node and a notificiation node to alert when messages for CPU cores are greater than 50% 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-11.57.26-pm.png)
+![Img](/Labs/Images/db33.png)
 
 For chart node make sure to create a new group under CPU tab 
 
-![In my case I called group CPU Utilization ](../.gitbook/assets/screen-shot-2019-08-12-at-11.57.55-pm.png)
+![Img](/Labs/Images/db34.png)
 
 Use a template node between a switch node and alert node to create a template for the message you want to alert : 
 
-![This template alerts which CPU core is at what percent when core is &amp;gt; 50](../.gitbook/assets/screen-shot-2019-08-13-at-12.03.06-am.png)
+![Img](/Labs/Images/db35.png)
 
 ### Step 3. Create a gauge for each core 
 
-![](../.gitbook/assets/screen-shot-2019-08-13-at-12.04.37-am.png)
+![Img](/Labs/Images/db36.png)
 
 Use switch node to seperate data coming from all 4 cores. Create seperate guages to map for each core's data. 
 
-![](../.gitbook/assets/screen-shot-2019-08-13-at-12.05.50-am.png)
+![Img](/Labs/Images/db37.png)
 
 Make sure you create a separate group for the gauges . In my case the Tab is still CPU but the group is CPU guages . In the end the dashboard is all under one tab - CPU and there are 3 separate groups - CPU on and off , CPU utilization and CPU gauges . 
 
 Flow should look like this : 
-
-![](../.gitbook/assets/screen-shot-2019-08-13-at-12.09.18-am.png)
+![Img](/Labs/Images/db37.png)
 
 Deploy all changes and see dashboard . When switch is turned on , you should see 4 lines on the utilization chart , as well as different values coming in from each gauge. You should see alerts when values are greater than 50. 
-
-
 
 ### To import CPU Dashboard flow go to : [CPUDashboard.flow](/Labs/Flows/cpuDashboard.flow)
 
