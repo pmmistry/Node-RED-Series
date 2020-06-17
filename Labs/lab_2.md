@@ -80,11 +80,11 @@ Make sure that the group and tab for the text node are same as the group and tab
 
 Drag a notification node to the workspace and connect it with the output of the button node 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.54.27-pm.png)
+![Img20](/Labs/Images/db20.png)
 
 Edit Notification Node's Layout 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.55.03-pm.png)
+![Img21](/Labs/Images/db21.png)
 
 Now once you click the button you should see an alert with the time stamp 
 
@@ -92,41 +92,41 @@ Now once you click the button you should see an alert with the time stamp
 
 Connect Audio Out  Node to Button Output 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.16.50-pm.png)
+![Img22](/Labs/Images/db22.png)
 
 Make sure audio out is the same tag and group as the button element
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.18.26-pm.png)
+![Img23](/Labs/Images/db23.png)
 
 Audio Out only takes text and converts it into audio. So change timestamp input from the button node to string . 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.39.53-pm.png)
+![Img23](/Labs/Images/db24.png)
 
 Deploy , and when you click on the button on the dashboard you should hear audio output. 
-
-
 
 ### Step 5 . Create another group on the same Tab 
 
 This other group will be called Analog and it will be on the same dashboard web page but it will include a slider, a gauge , a line chart and a bar chart ! 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.43.43-pm.png)
-
-
+![Img25](/Labs/Images/d25.png)
 
 Drag slider node and connect its output to gauge node , chart node \(line\) , and chart node \(bar\). 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.48.19-pm.png)
+![Img26](/Labs/Images/d26.png)
 
 Make sure all nodes are part of Analog group and set range from 0 - 200 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.48.04-pm.png)
+#### Slider: 
+![Img26](/Labs/Images/d27.png)
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.49.20-pm.png)
+#### Guage: 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.49.57-pm%20%281%29.png)
+![Img26](/Labs/Images/d28.png)
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-9.51.27-pm.png)
+#### Chart: 
+![Img26](/Labs/Images/d29.png)
+
 
 Deploy all changes and open dashboard UI. You should see gauge, line and bar chart fluctuate based on slider input. 
  
+### To import Basic Dashboard flow go to : [textAnalyzer.flow](/Labs/Flows/basicDashboard.flow)
