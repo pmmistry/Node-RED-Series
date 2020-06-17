@@ -69,13 +69,12 @@ Connect a debug node to this button node and then deploy.  To see how the dashbo
 
 Drag a Text Node and connect it to output of button node  
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.52.48-pm.png)
-
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.54.03-pm.png)
+![Img17](/Labs/Images/db17.png)
+![Img18](/Labs/Images/db18.png)
 
 Make sure that the group and tab for the text node are same as the group and tab for the button. This ensures that the text box will correspond to the button UI element . Click deploy and refresh dashboard web page and you should see : 
 
-![](../.gitbook/assets/screen-shot-2019-08-12-at-6.53.35-pm.png)
+![Img19](/Labs/Images/db19.png)
 
 ### Step 3. Add an Alert 
 
