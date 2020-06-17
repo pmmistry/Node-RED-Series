@@ -19,7 +19,7 @@ Node-RED provides plugins called nodes which can be installed to support almost 
 In this tutorial, you will learn how to create a Node-RED starter application in the IBM Cloud, including a Cloudant database to store the application flow configuration.
 
 ### Prerequisites 
-To complete this tutorial, you need an [IBM Cloud account](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) (IBM Cloud Lite, trial, or paid account).
+To complete this tutorial, you need an [IBM Cloud account](https://ibm.biz/BdqSUk) (IBM Cloud Lite, trial, or paid account).
 
 ### Estimated Time 
 You can complete this tutorial in less than 20 minutes.
