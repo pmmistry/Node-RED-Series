@@ -176,13 +176,19 @@ For chart node make sure to create a new group under CPU tab
 
 ![Img](/Labs/Images/db34.png)
 
+Make sure Switch node is taking in messages greater than 50 % 
+
 Use a template node between a switch node and alert node to create a template for the message you want to alert : 
 
 ![Img](/Labs/Images/db35.png)
 
+```Alert: CPU {{topic}} is {{payload}}%```
+
 ### Step 3. Create a gauge for each core 
 
 ![Img](/Labs/Images/db36.png)
+
+![Img](/Labs/Images/db42.png)
 
 Use switch node to seperate data coming from all 4 cores. Create seperate guages to map for each core's data. 
 
