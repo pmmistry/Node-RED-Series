@@ -214,7 +214,7 @@ This flow uses the template dashboard node to embed a world map. Then it uses th
 
 Once this node is installed you can set these settings for the world map node : 
 
-![Img](/Labs/Images/db41.png)
+![Img](/Labs/Images/db41-2.png)
 
 Once flow is created it should look like : 
 ![Img](/Labs/Images/db1.png)
