@@ -14,6 +14,9 @@ In addition to powering [the weather.com COVID statistics](https://weather.com/c
 
 In this tutorial, shows you how to access COVID-19 location and infection data through an API provided by The Weather Company (TWC) and incorporate that data into Node-RED dashboard, charts, and tables. Use Node-RED for data analysis and data visualization of COVID-19 infections by country, state, and county.
 
+This tutorial is also available as a IBM Developer tutorial:
+- [Build a Node-RED COVID-19 dashboard](https://developer.ibm.com/tutorials/build-a-node-red-covid-19-dashboard-using-twc-disease-tracker-api/)
+
 ### Learning objectives
 
 In this tutorial, you will:
@@ -26,10 +29,6 @@ In this tutorial, you will:
 ## Create a Node-RED Starter application
 
 In prior Node-RED Series workshops, we created a Node-RED Starter Application running in IBM Cloud.  If you haven't created one, follow these [instructions](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/)
-
-## Register for a Weather Company API key
-
-You need an API key to use The Weather Company API for COVID-19 Disease Tracking.  [Call for Code](https://developer.ibm.com/callforcode) participants can read the Terms of Service, register to join the [Call for Code 2020 COVID Challenge](https://developer.ibm.com/callforcode/getstarted/covid-19/) and request a TWC API key for this Node-RED node at [callforcode.weather.com](https://callforcode.weather.com) A time-limited API key will be sent to you via email.
 
 ## Learn about Node-RED
 
@@ -44,6 +43,10 @@ After Node-RED is installed, this tutorial requires you to add some additional d
 * [node-red-contrib-twc-covid19-tracker](https://flows.nodered.org/node/node-red-contrib-twc-covid19-tracker)
 * [node-red-node-ui-table](https://flows.nodered.org/node/node-red-node-ui-table)
 * [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard)
+
+## Register for a Weather Company API key
+
+You need an API key to use The Weather Company API for COVID-19 Disease Tracking.  [Call for Code](https://developer.ibm.com/callforcode) participants can read the Terms of Service, register to join the [Call for Code 2020 COVID Challenge](https://developer.ibm.com/callforcode/getstarted/covid-19/) and request a TWC API key for this Node-RED node at [callforcode.weather.com](https://callforcode.weather.com) A time-limited API key will be sent to you via email.
 
 ##  Review the TWC Disease Tracker API documentation
 
